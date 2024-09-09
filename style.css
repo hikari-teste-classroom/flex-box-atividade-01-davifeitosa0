@@ -21,9 +21,9 @@ h1 {
     border: solid 2px #212427;
 
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: flex-start;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .filho {
@@ -32,7 +32,14 @@ h1 {
     border-radius: 50px;
     text-align: center;
 }
-
+.caixaBoa {
+    display: flex;
+    height: 66%;
+    align-items: end;
+    justify-content: space-between;
+    width: 20%;
+    flex-direction: column-reverse;
+}
 .cor1 {
     background-color: #ED145B;
 }
@@ -43,6 +50,8 @@ h1 {
 
 .cor3 {
     background-color: #EFB661;
+    align-self: center;
+
 }
 
 .instrucoes {
